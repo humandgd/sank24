@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="j1.css">
+</head>
+<body>
+    <div class="button">クリック</div>
+    <div class="bt1">小さくなる</div>
+    <div class="box1">Box1</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('.button').click(function(){
+                $('.box1').slideToggle();
+            })
+            
+            $('.bt1').click(function(){
+                $('.box1').addClass('s1');
+            })
+        });
+    </script>
+</body>
+</html>
