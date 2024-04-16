@@ -1,0 +1,33 @@
+section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero {
+    background-image: url(./images/bread-1284438_1280.jpg);
+    text-align: center;
+    padding-top:10vh;
+}
+.menu{
+    background-color: aquamarine;
+}
+.contact {
+    background-color: blueviolet;
+}
+.title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 7rem;
+    margin-bottom:2rem;
+  }
+
+
+@media (max-width: 700px){
+    .title {
+        font-size: 4rem;
+    }
+}
+  
